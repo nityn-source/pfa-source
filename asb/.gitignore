@@ -1,0 +1,8 @@
+# Roster data and anything derived from it contains athletes' (minors') names.
+# Never commit it: this repository is public.
+roster_import_out/
+*_out/
+*.xlsx
+*.xls
+aliases.csv
+__pycache__/
