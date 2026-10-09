@@ -1,5 +1,6 @@
 # SBR Review Monitor — Per-Run Procedure
 
+Runs monthly (the 9th, ~02:42 UTC; daily until 9 Oct 2026).
 Follow these steps exactly on every scheduled run. The authoritative baseline
 lives in the routine prompt (updated via `update_trigger` each run); this repo
 holds a mirror in `state.json`.

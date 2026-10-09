@@ -7,8 +7,9 @@ Nityn (nitynb@gmail.com) whenever a new review appears.
 ## How it runs
 
 The bot is **not** a daemon in this codebase — it is a Claude Code scheduled
-routine bound to the session that created it. Once a day the routine wakes the
-session, which:
+routine bound to the session that created it. Once a month (the 9th, ~02:42
+UTC / 8:12 AM IST; daily from launch until 9 Oct 2026, when Nityn asked to
+switch to monthly) the routine wakes the session, which:
 
 1. Reads its baseline state (the set of already-seen review pages and
    per-source rating counts). The authoritative copy of that state lives in
