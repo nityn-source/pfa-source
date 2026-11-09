@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-09T02:42:25Z",
+  "last_run": "2026-11-09T02:42:38Z",
   "baseline_established": "2026-08-15",
   "notify_email": "nitynb@gmail.com",
   "note": "Mirror of the authoritative baseline stored in the 'SBR review monitor (monthly)' routine prompt. Cadence switched from daily to monthly (9th of each month, ~02:42 UTC) on 2026-10-09 at Nityn's request.",
@@ -199,6 +199,27 @@
       "project": "SBR Horizon",
       "gist": "4.1/5 from 8 reviews; positive - Whitefield location, design/infrastructure, floor plans, ventilation, well-maintained (emailed 1 Oct)",
       "first_seen": "2026-10-01"
+    },
+    {
+      "url": "squareyards.com/reviews/project/sbr-one-residence/324576",
+      "source": "Square Yards",
+      "project": "SBR One Residence",
+      "gist": "4.0/5 from 6 reviews (updated Apr 2025); mixed - concerns on construction quality and limited parking (emailed 9 Nov)",
+      "first_seen": "2026-11-09"
+    },
+    {
+      "url": "squareyards.com/reviews/project/sbr-horizon/17439",
+      "source": "Square Yards",
+      "project": "SBR Horizon",
+      "gist": "5 reviews (updated Apr 2025); mixed-negative - 'construction quality could be improved' (emailed 9 Nov)",
+      "first_seen": "2026-11-09"
+    },
+    {
+      "url": "homes247.in/prd/rating-and-reviews-of-sbr-keerthiprime-98498",
+      "source": "Homes247",
+      "project": "SBR Keerthi Prime",
+      "gist": "Resident review dated Mar 2026; positive overall, notes occasionally inconsistent water supply (emailed 9 Nov)",
+      "first_seen": "2026-11-09"
     }
   ],
   "notable_review_content": [
@@ -222,7 +243,10 @@
     "homes247_gokulam_rating": 4.4,
     "homes247_gokulam_reviews": 27,
     "homes247_horizon_rating": 4.1,
-    "homes247_horizon_reviews": 8
+    "homes247_horizon_reviews": 8,
+    "squareyards_one_residence_rating": 4.0,
+    "squareyards_one_residence_reviews": 6,
+    "squareyards_horizon_reviews": 5
   },
   "run_log": [
     "2026-08-15 baseline established; 18 review-relevant URLs recorded",
@@ -239,6 +263,7 @@
     "2026-10-01 1 new, emailed (Homes247 Horizon ratings page, 4.1/5 from 8)",
     "2026-10-02..09 quiet (all new URLs listing/badge/locality pages; 10-08 folded Queens Ville housing.com locality reviews + SBR Towers/Codename Royal Highness names; 10-09 identified unrelated Hyderabad SBR Group as false-positive source)",
     "2026-10-09 cadence changed daily -> monthly (next run 2026-11-09) per Nityn's request",
+    "2026-11-09 first monthly run: 3 new, emailed (SY One Residence + SY Horizon reviews pages w/ construction-quality concerns; Homes247 Keerthi Prime page w/ Mar-2026 review)",
     "2026-09-27 repo write access restored; state mirror rebuilt and pushed"
   ]
 }
